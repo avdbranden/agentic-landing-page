@@ -27,7 +27,23 @@ export function CaseStudy() {
             {t("headline")}
           </h2>
           <p className="text-neutral-500 max-w-xl leading-relaxed">
-            {t("context")}
+            {t("context").split("Kult Kefir").map((part, i, arr) =>
+              i < arr.length - 1 ? (
+                <span key={i}>
+                  {part}
+                  <a
+                    href="https://www.kultkefir.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-neutral-900 underline underline-offset-2 hover:text-neutral-600 transition-colors"
+                  >
+                    Kult Kefir
+                  </a>
+                </span>
+              ) : (
+                <span key={i}>{part}</span>
+              )
+            )}
           </p>
         </div>
 

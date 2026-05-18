@@ -3,7 +3,9 @@
 import { useTranslations } from "next-intl";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { AnimatedCard } from "@/components/ui/AnimatedCard";
-import { AlertCircle } from "lucide-react";
+import { Database, Gauge, AlertTriangle, Clock } from "lucide-react";
+
+const icons = [Database, Gauge, AlertTriangle, Clock];
 
 export function Problem() {
   const t = useTranslations("problem");
@@ -20,23 +22,26 @@ export function Problem() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {items.map((item, i) => (
-            <AnimatedCard key={item.title} delay={i * 0.08}>
-              <div className="flex gap-4">
-                <div className="shrink-0 w-8 h-8 rounded-lg bg-neutral-100 flex items-center justify-center mt-0.5">
-                  <AlertCircle size={15} className="text-neutral-500" />
+          {items.map((item, i) => {
+            const Icon = icons[i % icons.length];
+            return (
+              <AnimatedCard key={item.title} delay={i * 0.08}>
+                <div className="flex gap-4">
+                  <div className="shrink-0 w-8 h-8 rounded-lg bg-neutral-100 flex items-center justify-center mt-0.5">
+                    <Icon size={15} className="text-neutral-500" />
+                  </div>
+                  <div>
+                    <h3 className="font-medium text-neutral-900 mb-1.5">
+                      {item.title}
+                    </h3>
+                    <p className="text-sm text-neutral-500 leading-relaxed">
+                      {item.description}
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="font-medium text-neutral-900 mb-1.5">
-                    {item.title}
-                  </h3>
-                  <p className="text-sm text-neutral-500 leading-relaxed">
-                    {item.description}
-                  </p>
-                </div>
-              </div>
-            </AnimatedCard>
-          ))}
+              </AnimatedCard>
+            );
+          })}
         </div>
       </div>
     </SectionWrapper>

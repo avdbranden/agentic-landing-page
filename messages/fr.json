@@ -12,20 +12,20 @@
     "subheadline": "Nous construisons des automatisations sur mesure pour les entreprises à forte composante opérationnelle — réduisant le travail manuel, les erreurs, et permettant à vos équipes de se concentrer sur ce qui compte vraiment.",
     "primaryCTA": "Nous contacter",
     "secondaryCTA": "Voir le cas client",
-    "trustLabel": "Fait confiance par des entreprises en croissance à travers l'Europe"
+    "trustLabel": "Fait confiance par des entreprises en croissance en Europe"
   },
   "credibility": {
     "headline": "Pourquoi Agentic",
-    "intro": "Nous sommes une équipe de deux personnes avec de solides bases en ingénierie logicielle et en opérations. Nous avons vu comment les flux de travail manuels créent des goulots d'étranglement — et nous savons comment y remédier.",
+    "intro": "Nous sommes une petite agence avec de solides bases en ingénierie logicielle et en opérations métier. Nous avons vu comment les flux de travail manuels créent des goulots d'étranglement — et nous savons comment y remédier.",
     "stats": [
       { "value": "100%", "label": "Automatisations sur mesure" },
       { "value": "< 4 sem.", "label": "Délai moyen de mise en production" },
-      { "value": "0", "label": "Outils SaaS génériques" }
+      { "value": "Jusqu'à 50%", "label": "Économies de temps et de coûts" }
     ]
   },
   "problem": {
     "headline": "Les flux manuels ne passent pas à l'échelle.",
-    "intro": "Les entreprises en croissance atteignent un plafond. Non pas parce que le travail est complexe — mais parce qu'il est répétitif, sujet aux erreurs, et toujours fait à la main.",
+    "intro": "Les entreprises en croissance atteignent un plafond car de nombreuses opérations sont répétitives, sujettes aux erreurs, et toujours réalisées manuellement.",
     "items": [
       {
         "title": "Des saisies de données quotidiennes",
@@ -59,10 +59,10 @@
       },
       {
         "title": "Traiter des entrées non structurées",
-        "description": "Emails, PDFs, images, formulaires — l'IA peut lire et traiter des sources que les intégrations standard ne peuvent pas."
+        "description": "Emails, PDFs, images, formulaires : l'IA peut lire et traiter des sources que les intégrations standard ne peuvent pas."
       },
       {
-        "title": "Fonctionner de manière fiable sans surveillance",
+        "title": "Fonctionner de manière fiable avec visibilité totale",
         "description": "Des automatisations conçues pour tourner silencieusement en arrière-plan, avec une gestion des erreurs qui remonte les bonnes alertes."
       }
     ]
@@ -71,22 +71,21 @@
     "tag": "Cas Client",
     "client": "Kult Kefir",
     "headline": "De la saisie manuelle des commandes à l'intégration ERP automatisée.",
-    "context": "Kult Kefir est une marque britannique d'aliments fonctionnels avec une activité de gros en pleine croissance. Les commandes clients arrivaient par email — dans des formats variables, sans structure standard.",
+    "context": "Kult Kefir est une marque belge de limonade fermentée avec une activité de gros en pleine croissance. Les commandes clients arrivaient par email — dans des formats variables, sans structure standard.",
     "beforeTitle": "Avant",
     "beforeItems": [
       "Le personnel lisait manuellement chaque email de commande",
       "Les données saisies à la main dans le système ERP",
-      "Les incohérences de format nécessitaient une interprétation",
       "Les pics de volume créaient des embouteillages de traitement",
+      "Commandes traitées uniquement pendant les heures de bureau",
       "Risque d'erreur humaine sur chaque commande"
     ],
     "afterTitle": "Ce qu'Agentic a construit",
     "afterItems": [
       "Un agent IA surveille la boîte de réception des commandes",
       "Extrait les données de commande des emails et pièces jointes",
-      "Utilise la vision par ordinateur pour les commandes basées sur des images",
       "Valide et structure les données de commande automatiquement",
-      "Pousse les commandes confirmées directement dans l'ERP"
+      "Pousse les commandes directement dans l'ERP"
     ],
     "flowLabel": "Flux de traitement des commandes",
     "flowSteps": ["Email reçu", "Extraction IA", "Validation", "Entrée ERP"],
@@ -129,7 +128,7 @@
       },
       {
         "title": "Une infrastructure évolutive",
-        "description": "Gérez 10 fois le volume avec le même système. La croissance cesse d'être un problème de recrutement."
+        "description": "Gérez plus de volume avec le même système. La croissance cesse d'être un problème de recrutement."
       },
       {
         "title": "Une visibilité claire",
@@ -165,18 +164,18 @@
   },
   "founders": {
     "headline": "Qui nous sommes",
-    "intro": "Deux ingénieurs qui ont passé des années à l'intersection du logiciel et des opérations.",
+    "intro": "Deux entrepreneurs qui ont passé des années à l'intersection du logiciel et des opérations.",
     "people": [
       {
-        "name": "Adrien Van den Branden",
+        "name": "Adrien van den Branden",
         "role": "Co-fondateur",
-        "bio": "Ingénieur logiciel avec une expérience dans la construction de systèmes de production pour des entreprises à l'échelle opérationnelle. Axé sur rendre l'automatisation fiable et maintenable.",
+        "bio": "Entrepreneur avec une expérience dans la construction de systèmes de production pour des entreprises à l'échelle opérationnelle. Axé sur rendre l'automatisation fiable et maintenable.",
         "linkedin": "https://www.linkedin.com/in/adrienvandenbranden/"
       },
       {
         "name": "James de Wasseige",
         "role": "Co-fondateur",
-        "bio": "Apporte une expérience approfondie dans les systèmes IA et la conception de flux de travail. Axé sur la traduction des processus métier en automatisations fiables et évolutives.",
+        "bio": "Entrepreneur avec une expérience approfondie dans les systèmes IA et la conception de flux de travail. Axé sur la traduction des processus métier en automatisations fiables et évolutives.",
         "linkedin": "https://www.linkedin.com/in/meet-jay/"
       }
     ]

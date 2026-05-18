@@ -5,7 +5,7 @@ import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { FounderCard } from "@/components/ui/FounderCard";
 
 const founderPhotos: Record<string, string> = {
-  "Adrien Van den Branden": "/adrien-vdb.png",
+  "Adrien van den Branden": "/adrien-vdb.png",
   "James de Wasseige": "/james-dw.jpeg",
 };
 

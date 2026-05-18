@@ -12,20 +12,20 @@
     "subheadline": "We build custom automation for operations-heavy businesses — reducing manual effort, cutting errors, and letting your team focus on work that actually matters.",
     "primaryCTA": "Email Us",
     "secondaryCTA": "See Case Study",
-    "trustLabel": "Trusted by growing businesses across Europe"
+    "trustLabel": "Trusted by growing businesses in Europe"
   },
   "credibility": {
     "headline": "Why Agentic",
-    "intro": "We're a two-person team with deep roots in software engineering and operations. We've seen how manual workflows create bottlenecks — and we know how to fix them.",
+    "intro": "We're a small agency with deep roots in software engineering and business operations. We've seen how manual workflows create bottlenecks — and we know how to fix them.",
     "stats": [
       { "value": "100%", "label": "Custom-built automations" },
       { "value": "< 4 wks", "label": "Average time to production" },
-      { "value": "0", "label": "Off-the-shelf SaaS tools" }
+      { "value": "Up to 50%", "label": "time and cost savings" }
     ]
   },
   "problem": {
     "headline": "Manual workflows don't scale.",
-    "intro": "Growing businesses hit a ceiling. Not because the work is complex — but because it's repetitive, error-prone, and still done by hand.",
+    "intro": "Growing businesses hit a ceiling because many operations are repetitive, error-prone, and still done by hand.",
     "items": [
       {
         "title": "Data entry that repeats daily",
@@ -59,10 +59,10 @@
       },
       {
         "title": "Handle unstructured inputs",
-        "description": "Emails, PDFs, images, forms — AI can read and process sources that standard integrations can't."
+        "description": "Emails, PDFs, images, forms: AI can read and process sources that standard integrations can't."
       },
       {
-        "title": "Run reliably without babysitting",
+        "title": "Run reliably full visibility",
         "description": "Automations built to run quietly in the background, with error handling that surfaces the right alerts."
       }
     ]
@@ -71,22 +71,21 @@
     "tag": "Case Study",
     "client": "Kult Kefir",
     "headline": "From manual order entry to automated ERP ingestion.",
-    "context": "Kult Kefir is a UK-based functional food brand with a growing wholesale operation. Customer orders arrived by email — in varying formats, with no standard structure.",
+    "context": "Kult Kefir is a Belgium-based fermented lemonade brand with a growing wholesale operation. Customer orders arrived by email — in varying formats, with no standard structure.",
     "beforeTitle": "Before",
     "beforeItems": [
       "Staff manually read each order email",
       "Data hand-entered into the ERP system",
-      "Format inconsistencies required interpretation",
       "Volume spikes created processing backlogs",
+      "Orders handled only during business hours",
       "Human error risk on every order"
     ],
     "afterTitle": "What Agentic built",
     "afterItems": [
       "AI agent monitors the orders inbox",
       "Extracts order data from emails and attachments",
-      "Uses computer vision for image-based orders",
       "Validates and structures order data automatically",
-      "Pushes confirmed orders directly into the ERP"
+      "Pushes orders directly into the ERP"
     ],
     "flowLabel": "Order Processing Flow",
     "flowSteps": ["Email received", "AI extraction", "Validation", "ERP entry"],
@@ -129,7 +128,7 @@
       },
       {
         "title": "Scalable infrastructure",
-        "description": "Handle 10x the volume with the same system. Growth stops being a staffing problem."
+        "description": "Handle more volume with the same system. Growth stops being a staffing problem."
       },
       {
         "title": "Clear visibility",
@@ -165,18 +164,18 @@
   },
   "founders": {
     "headline": "Who we are",
-    "intro": "Two engineers who've spent years at the intersection of software and operations.",
+    "intro": "Two entrepreneurs who've spent years at the intersection of software and operations.",
     "people": [
       {
-        "name": "Adrien Van den Branden",
+        "name": "Adrien van den Branden",
         "role": "Co-founder",
-        "bio": "Software engineer with a background in building production systems for operational-scale companies. Focused on making automation reliable and maintainable.",
+        "bio": "Entrepreneur with a background in building production systems for operational-scale companies. Focused on making automation reliable and maintainable.",
         "linkedin": "https://www.linkedin.com/in/adrienvandenbranden/"
       },
       {
         "name": "James de Wasseige",
         "role": "Co-founder",
-        "bio": "Brings deep experience in AI systems and workflow design. Focused on translating business processes into reliable, scalable automations.",
+        "bio": "Entrepreneur with deep experience in AI systems and workflow design. Focused on translating business processes into reliable, scalable automations.",
         "linkedin": "https://www.linkedin.com/in/meet-jay/"
       }
     ]
@@ -211,11 +210,11 @@
     ]
   },
   "finalCta": {
-    "headline": "Have a workflow that's costing you time?",
-    "body": "Send us a short description of the process and we'll tell you whether it's a good candidate for automation. No pitch, no commitment.",
+    "headline": "Have a business process that's costing you time?",
+    "body": "Send us a short description of the process and we'll tell you whether it's a good candidate for automation.",
     "primaryCTA": "Email Us",
     "secondaryCTA": "See Case Study",
-    "emailSubject": "Automation enquiry"
+    "emailSubject": "Automation request"
   },
   "footer": {
     "tagline": "AI automation for operations-heavy businesses.",
@@ -225,7 +224,7 @@
       { "label": "Process", "href": "#process" },
       { "label": "FAQ", "href": "#faq" }
     ],
-    "legal": "© 2025 Agentic. All rights reserved.",
+    "legal": "© 2026 Agentic. All rights reserved.",
     "privacyNote": "We don't collect personal data on this site."
   },
   "langToggle": {
