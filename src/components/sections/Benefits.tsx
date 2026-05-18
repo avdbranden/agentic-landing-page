@@ -3,16 +3,9 @@
 import { useTranslations } from "next-intl";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { AnimatedCard } from "@/components/ui/AnimatedCard";
-import {
-  Clock,
-  TrendingDown,
-  Zap,
-  ShieldCheck,
-  BarChart3,
-  Eye,
-} from "lucide-react";
+import { RefreshCcw, Zap, TrendingDown, ShieldCheck, Layers, Eye } from "lucide-react";
 
-const icons = [Clock, Zap, TrendingDown, ShieldCheck, BarChart3, Eye];
+const icons = [RefreshCcw, Zap, TrendingDown, ShieldCheck, Layers, Eye];
 
 export function Benefits() {
   const t = useTranslations("benefits");
