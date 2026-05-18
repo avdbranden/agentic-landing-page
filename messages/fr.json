@@ -1,0 +1,235 @@
+{
+  "nav": {
+    "services": "Services",
+    "caseStudy": "Cas Client",
+    "process": "Processus",
+    "faq": "FAQ",
+    "emailUs": "Nous contacter"
+  },
+  "hero": {
+    "badge": "Conseil en automatisation IA",
+    "headline": "Des systèmes IA qui suppriment les tâches opérationnelles répétitives.",
+    "subheadline": "Nous construisons des automatisations sur mesure pour les entreprises à forte composante opérationnelle — réduisant le travail manuel, les erreurs, et permettant à vos équipes de se concentrer sur ce qui compte vraiment.",
+    "primaryCTA": "Nous contacter",
+    "secondaryCTA": "Voir le cas client",
+    "trustLabel": "Fait confiance par des entreprises en croissance à travers l'Europe"
+  },
+  "credibility": {
+    "headline": "Pourquoi Agentic",
+    "intro": "Nous sommes une équipe de deux personnes avec de solides bases en ingénierie logicielle et en opérations. Nous avons vu comment les flux de travail manuels créent des goulots d'étranglement — et nous savons comment y remédier.",
+    "stats": [
+      { "value": "100%", "label": "Automatisations sur mesure" },
+      { "value": "< 4 sem.", "label": "Délai moyen de mise en production" },
+      { "value": "0", "label": "Outils SaaS génériques" }
+    ]
+  },
+  "problem": {
+    "headline": "Les flux manuels ne passent pas à l'échelle.",
+    "intro": "Les entreprises en croissance atteignent un plafond. Non pas parce que le travail est complexe — mais parce qu'il est répétitif, sujet aux erreurs, et toujours fait à la main.",
+    "items": [
+      {
+        "title": "Des saisies de données quotidiennes",
+        "description": "Commandes, rapports, mises à jour entrées manuellement dans des systèmes qui devraient communiquer entre eux."
+      },
+      {
+        "title": "Des processus qui s'effondrent sous le volume",
+        "description": "Ce qui fonctionnait à 50 commandes par semaine peine à 500. Les effectifs ne peuvent pas suivre indéfiniment."
+      },
+      {
+        "title": "Des erreurs qui passent entre les mailles",
+        "description": "La revue humaine capte la plupart des choses. Pas toutes. Et les erreurs opérationnelles ont des conséquences réelles."
+      },
+      {
+        "title": "Du temps perdu sur les mauvaises tâches",
+        "description": "Votre équipe est capable de plus. Mais le travail administratif répétitif remplit la journée avant que le travail à valeur ajoutée ait sa chance."
+      }
+    ]
+  },
+  "solution": {
+    "headline": "Une automatisation construite autour de votre flux réel.",
+    "intro": "Nous ne vous vendons pas une plateforme. Nous apprenons comment fonctionne votre opération et construisons des systèmes qui s'y intègrent directement.",
+    "items": [
+      {
+        "title": "Comprendre votre flux d'abord",
+        "description": "Nous auditons vos processus existants avant d'écrire une seule ligne de code."
+      },
+      {
+        "title": "Connecter des systèmes qui ne communiquent pas",
+        "description": "Extraire, valider et router les données entre les outils — sans traitement manuel intermédiaire."
+      },
+      {
+        "title": "Traiter des entrées non structurées",
+        "description": "Emails, PDFs, images, formulaires — l'IA peut lire et traiter des sources que les intégrations standard ne peuvent pas."
+      },
+      {
+        "title": "Fonctionner de manière fiable sans surveillance",
+        "description": "Des automatisations conçues pour tourner silencieusement en arrière-plan, avec une gestion des erreurs qui remonte les bonnes alertes."
+      }
+    ]
+  },
+  "caseStudy": {
+    "tag": "Cas Client",
+    "client": "Kult Kefir",
+    "headline": "De la saisie manuelle des commandes à l'intégration ERP automatisée.",
+    "context": "Kult Kefir est une marque britannique d'aliments fonctionnels avec une activité de gros en pleine croissance. Les commandes clients arrivaient par email — dans des formats variables, sans structure standard.",
+    "beforeTitle": "Avant",
+    "beforeItems": [
+      "Le personnel lisait manuellement chaque email de commande",
+      "Les données saisies à la main dans le système ERP",
+      "Les incohérences de format nécessitaient une interprétation",
+      "Les pics de volume créaient des embouteillages de traitement",
+      "Risque d'erreur humaine sur chaque commande"
+    ],
+    "afterTitle": "Ce qu'Agentic a construit",
+    "afterItems": [
+      "Un agent IA surveille la boîte de réception des commandes",
+      "Extrait les données de commande des emails et pièces jointes",
+      "Utilise la vision par ordinateur pour les commandes basées sur des images",
+      "Valide et structure les données de commande automatiquement",
+      "Pousse les commandes confirmées directement dans l'ERP"
+    ],
+    "flowLabel": "Flux de traitement des commandes",
+    "flowSteps": ["Email reçu", "Extraction IA", "Validation", "Entrée ERP"],
+    "outcomeTitle": "Résultats",
+    "outcomes": [
+      {
+        "value": "~90%",
+        "label": "Réduction du temps de saisie manuelle des commandes"
+      },
+      {
+        "value": "Même jour",
+        "label": "Traitement quel que soit le volume"
+      },
+      {
+        "value": "Zéro",
+        "label": "Changement de format demandé aux clients"
+      }
+    ],
+    "quote": "Les commandes qui prenaient une heure se traitent maintenant d'elles-mêmes. L'équipe peut se concentrer sur l'exécution, pas sur l'administration.",
+    "quoteAuthor": "Équipe opérationnelle, Kult Kefir"
+  },
+  "benefits": {
+    "headline": "Ce qui change quand vos opérations tournent sur l'automatisation.",
+    "items": [
+      {
+        "title": "Moins de travail répétitif",
+        "description": "Les tâches que votre équipe fait de la même façon chaque jour sont candidates à l'automatisation. Libérez ce temps."
+      },
+      {
+        "title": "Un traitement plus rapide",
+        "description": "Les processus qui dépendent de la disponibilité humaine deviennent instantanés. Pas de file d'attente, pas d'attente."
+      },
+      {
+        "title": "Des coûts opérationnels réduits",
+        "description": "Augmentez le volume sans augmenter les effectifs. L'économie unitaire s'améliore à mesure que vous grandissez."
+      },
+      {
+        "title": "Moins d'erreurs",
+        "description": "Un traitement cohérent et basé sur des règles surpasse la revue manuelle à l'échelle."
+      },
+      {
+        "title": "Une infrastructure évolutive",
+        "description": "Gérez 10 fois le volume avec le même système. La croissance cesse d'être un problème de recrutement."
+      },
+      {
+        "title": "Une visibilité claire",
+        "description": "Les systèmes automatisés créent des journaux. Vous savez exactement ce qui a tourné, quand, et ce qu'il a produit."
+      }
+    ]
+  },
+  "process": {
+    "headline": "Comment nous travaillons",
+    "intro": "Simple, structuré, et axé sur la mise en production rapide de quelque chose de concret.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Audit",
+        "description": "Nous cartographions vos flux de travail actuels, identifions les plus grands goulots d'étranglement répétitifs et déterminons ce qui peut être automatisé avec une haute confiance."
+      },
+      {
+        "number": "02",
+        "title": "Conception",
+        "description": "Nous proposons une architecture d'automatisation adaptée à votre stack, vos sources de données et vos outils existants."
+      },
+      {
+        "number": "03",
+        "title": "Construction",
+        "description": "Nous construisons, testons et déployons. Vous êtes impliqué à chaque étape. Rien n'est livré sans votre validation."
+      },
+      {
+        "number": "04",
+        "title": "Itération",
+        "description": "Après le lancement, nous surveillons, affinons et étendons. L'automatisation s'améliore avec les données réelles."
+      }
+    ]
+  },
+  "founders": {
+    "headline": "Qui nous sommes",
+    "intro": "Deux ingénieurs qui ont passé des années à l'intersection du logiciel et des opérations.",
+    "people": [
+      {
+        "name": "Adrien Van den Branden",
+        "role": "Co-fondateur",
+        "bio": "Ingénieur logiciel avec une expérience dans la construction de systèmes de production pour des entreprises à l'échelle opérationnelle. Axé sur rendre l'automatisation fiable et maintenable.",
+        "linkedin": "https://www.linkedin.com/in/adrienvandenbranden/"
+      },
+      {
+        "name": "James de Wasseige",
+        "role": "Co-fondateur",
+        "bio": "Apporte une expérience approfondie dans les systèmes IA et la conception de flux de travail. Axé sur la traduction des processus métier en automatisations fiables et évolutives.",
+        "linkedin": "https://www.linkedin.com/in/meet-jay/"
+      }
+    ]
+  },
+  "faq": {
+    "headline": "Questions fréquentes",
+    "items": [
+      {
+        "question": "Avons-nous besoin de connaissances techniques pour travailler avec vous ?",
+        "answer": "Non. Nous gérons entièrement le côté technique. Vous expliquez comment fonctionne votre opération ; nous trouvons comment l'automatiser. La seule chose dont nous avons besoin de votre part, c'est l'accès à votre flux de travail et quelques heures du temps de votre équipe au départ."
+      },
+      {
+        "question": "Cela peut-il fonctionner avec nos outils existants ?",
+        "answer": "La plupart du temps, oui. Nous nous intégrons avec les ERP, CRM, systèmes de messagerie, feuilles de calcul et bases de données internes. Si vous utilisez un outil avec une API ou un support webhook, il y a de bonnes chances que nous puissions nous y connecter."
+      },
+      {
+        "question": "Combien de temps prend la mise en œuvre ?",
+        "answer": "La plupart des projets vont de l'audit à la production en deux à quatre semaines. Les systèmes plus complexes avec plusieurs intégrations prennent plus de temps. Nous vous donnons un calendrier clair à la fin de la phase d'audit."
+      },
+      {
+        "question": "À quel point les automatisations IA sont-elles fiables ?",
+        "answer": "Suffisamment fiables pour tourner en production — avec les garde-fous appropriés. Nous intégrons des étapes de validation, de gestion des erreurs et des files de revue humaine pour les cas limites. L'objectif est un système en lequel votre équipe peut avoir confiance, pas un qui nécessite une surveillance constante."
+      },
+      {
+        "question": "Comment gérez-vous la confidentialité et la sécurité ?",
+        "answer": "Nous traitons la gestion des données avec sérieux. Les automatisations ne traitent que ce qui est nécessaire, les identifiants sont stockés de manière sécurisée, et nous suivons les pratiques appropriées à la sensibilité de vos données. Nous discuterons des détails avant que tout travail ne commence."
+      },
+      {
+        "question": "L'IA peut-elle traiter des entrées non structurées comme les emails ou les PDFs ?",
+        "answer": "Oui — c'est là que l'IA apporte le plus de valeur. Les modèles de langage modernes peuvent extraire des données structurées à partir d'emails, documents, images et formulaires que les intégrations standard ne peuvent pas traiter. Le cas client Kult Kefir en est un exemple direct."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Vous avez un flux de travail qui vous coûte du temps ?",
+    "body": "Envoyez-nous une courte description du processus et nous vous dirons s'il est un bon candidat à l'automatisation. Pas de présentation, pas d'engagement.",
+    "primaryCTA": "Nous contacter",
+    "secondaryCTA": "Voir le cas client",
+    "emailSubject": "Demande d'automatisation"
+  },
+  "footer": {
+    "tagline": "Automatisation IA pour les entreprises à forte composante opérationnelle.",
+    "links": [
+      { "label": "Services", "href": "#solution" },
+      { "label": "Cas Client", "href": "#case-study" },
+      { "label": "Processus", "href": "#process" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
+    "legal": "© 2025 Agentic. Tous droits réservés.",
+    "privacyNote": "Nous ne collectons pas de données personnelles sur ce site."
+  },
+  "langToggle": {
+    "en": "EN",
+    "fr": "FR"
+  }
+}

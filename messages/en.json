@@ -1,0 +1,235 @@
+{
+  "nav": {
+    "services": "Services",
+    "caseStudy": "Case Study",
+    "process": "Process",
+    "faq": "FAQ",
+    "emailUs": "Email Us"
+  },
+  "hero": {
+    "badge": "AI Automation Consulting",
+    "headline": "AI systems that eliminate repetitive operational work.",
+    "subheadline": "We build custom automation for operations-heavy businesses — reducing manual effort, cutting errors, and letting your team focus on work that actually matters.",
+    "primaryCTA": "Email Us",
+    "secondaryCTA": "See Case Study",
+    "trustLabel": "Trusted by growing businesses across Europe"
+  },
+  "credibility": {
+    "headline": "Why Agentic",
+    "intro": "We're a two-person team with deep roots in software engineering and operations. We've seen how manual workflows create bottlenecks — and we know how to fix them.",
+    "stats": [
+      { "value": "100%", "label": "Custom-built automations" },
+      { "value": "< 4 wks", "label": "Average time to production" },
+      { "value": "0", "label": "Off-the-shelf SaaS tools" }
+    ]
+  },
+  "problem": {
+    "headline": "Manual workflows don't scale.",
+    "intro": "Growing businesses hit a ceiling. Not because the work is complex — but because it's repetitive, error-prone, and still done by hand.",
+    "items": [
+      {
+        "title": "Data entry that repeats daily",
+        "description": "Orders, reports, and updates entered manually into systems that should talk to each other."
+      },
+      {
+        "title": "Processes that break under volume",
+        "description": "What worked at 50 orders a week struggles at 500. Headcount can't keep pace indefinitely."
+      },
+      {
+        "title": "Errors that slip through",
+        "description": "Human review catches most things. Not all. And mistakes in operations have real consequences."
+      },
+      {
+        "title": "Time spent on the wrong things",
+        "description": "Your team is capable of more. But repetitive admin work fills the day before higher-value work gets a chance."
+      }
+    ]
+  },
+  "solution": {
+    "headline": "Automation built around your actual workflow.",
+    "intro": "We don't sell you a platform. We learn how your operation works and build systems that fit directly into it.",
+    "items": [
+      {
+        "title": "Understand your workflow first",
+        "description": "We audit your existing processes before writing a single line of code."
+      },
+      {
+        "title": "Connect systems that don't talk",
+        "description": "Extract, validate, and route data between tools — without manual handling in the middle."
+      },
+      {
+        "title": "Handle unstructured inputs",
+        "description": "Emails, PDFs, images, forms — AI can read and process sources that standard integrations can't."
+      },
+      {
+        "title": "Run reliably without babysitting",
+        "description": "Automations built to run quietly in the background, with error handling that surfaces the right alerts."
+      }
+    ]
+  },
+  "caseStudy": {
+    "tag": "Case Study",
+    "client": "Kult Kefir",
+    "headline": "From manual order entry to automated ERP ingestion.",
+    "context": "Kult Kefir is a UK-based functional food brand with a growing wholesale operation. Customer orders arrived by email — in varying formats, with no standard structure.",
+    "beforeTitle": "Before",
+    "beforeItems": [
+      "Staff manually read each order email",
+      "Data hand-entered into the ERP system",
+      "Format inconsistencies required interpretation",
+      "Volume spikes created processing backlogs",
+      "Human error risk on every order"
+    ],
+    "afterTitle": "What Agentic built",
+    "afterItems": [
+      "AI agent monitors the orders inbox",
+      "Extracts order data from emails and attachments",
+      "Uses computer vision for image-based orders",
+      "Validates and structures order data automatically",
+      "Pushes confirmed orders directly into the ERP"
+    ],
+    "flowLabel": "Order Processing Flow",
+    "flowSteps": ["Email received", "AI extraction", "Validation", "ERP entry"],
+    "outcomeTitle": "Outcomes",
+    "outcomes": [
+      {
+        "value": "~90%",
+        "label": "Reduction in manual order entry time"
+      },
+      {
+        "value": "Same day",
+        "label": "Processing regardless of volume"
+      },
+      {
+        "value": "Zero",
+        "label": "Format changes required from customers"
+      }
+    ],
+    "quote": "Orders that used to take an hour now process themselves. The team can focus on fulfilment, not admin.",
+    "quoteAuthor": "Operations team, Kult Kefir"
+  },
+  "benefits": {
+    "headline": "What changes when your operations run on automation.",
+    "items": [
+      {
+        "title": "Less repetitive work",
+        "description": "Tasks your team does the same way every day are candidates for automation. Free that time up."
+      },
+      {
+        "title": "Faster turnaround",
+        "description": "Processes that depend on human availability become instant. No queue, no wait."
+      },
+      {
+        "title": "Lower operational cost",
+        "description": "Scale volume without scaling headcount. The unit economics improve as you grow."
+      },
+      {
+        "title": "Fewer errors",
+        "description": "Consistent, rule-based processing outperforms manual review at scale."
+      },
+      {
+        "title": "Scalable infrastructure",
+        "description": "Handle 10x the volume with the same system. Growth stops being a staffing problem."
+      },
+      {
+        "title": "Clear visibility",
+        "description": "Automated systems create logs. You know exactly what ran, when, and what it produced."
+      }
+    ]
+  },
+  "process": {
+    "headline": "How we work",
+    "intro": "Simple, structured, and focused on getting something real into production quickly.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Audit",
+        "description": "We map your current workflows, identify the biggest repetitive bottlenecks, and determine what's automatable with high confidence."
+      },
+      {
+        "number": "02",
+        "title": "Design",
+        "description": "We propose an automation architecture that fits your stack, your data sources, and your existing tools."
+      },
+      {
+        "number": "03",
+        "title": "Build",
+        "description": "We build, test, and deploy. You're involved at every milestone. Nothing ships without your sign-off."
+      },
+      {
+        "number": "04",
+        "title": "Iterate",
+        "description": "After launch, we monitor, refine, and extend. Automation improves with real-world data."
+      }
+    ]
+  },
+  "founders": {
+    "headline": "Who we are",
+    "intro": "Two engineers who've spent years at the intersection of software and operations.",
+    "people": [
+      {
+        "name": "Adrien Van den Branden",
+        "role": "Co-founder",
+        "bio": "Software engineer with a background in building production systems for operational-scale companies. Focused on making automation reliable and maintainable.",
+        "linkedin": "https://www.linkedin.com/in/adrienvandenbranden/"
+      },
+      {
+        "name": "James de Wasseige",
+        "role": "Co-founder",
+        "bio": "Brings deep experience in AI systems and workflow design. Focused on translating business processes into reliable, scalable automations.",
+        "linkedin": "https://www.linkedin.com/in/meet-jay/"
+      }
+    ]
+  },
+  "faq": {
+    "headline": "Common questions",
+    "items": [
+      {
+        "question": "Do we need technical knowledge to work with you?",
+        "answer": "No. We handle the technical side entirely. You explain how your operation works; we figure out how to automate it. The only thing we need from you is access to your workflow and a few hours of your team's time upfront."
+      },
+      {
+        "question": "Can this work with our existing tools?",
+        "answer": "Most of the time, yes. We integrate with ERPs, CRMs, email systems, spreadsheets, and internal databases. If you're using a tool with an API or webhook support, there's a good chance we can connect to it."
+      },
+      {
+        "question": "How long does implementation take?",
+        "answer": "Most projects go from audit to production in two to four weeks. More complex systems with multiple integrations take longer. We'll give you a clear timeline at the end of the audit phase."
+      },
+      {
+        "question": "How reliable are AI automations?",
+        "answer": "Reliable enough to run in production — with appropriate guardrails. We build in validation steps, error handling, and human review queues for edge cases. The goal is a system your team can trust, not one that needs constant monitoring."
+      },
+      {
+        "question": "How do you handle privacy and security?",
+        "answer": "We treat data handling seriously. Automations process only what's necessary, credentials are stored securely, and we follow appropriate practices for the sensitivity of your data. We'll discuss specifics before any work begins."
+      },
+      {
+        "question": "Can AI process unstructured inputs like emails or PDFs?",
+        "answer": "Yes — that's where AI adds the most value. Modern language models can extract structured data from emails, documents, images, and forms that standard integrations can't handle. The Kult Kefir case study is a direct example."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Have a workflow that's costing you time?",
+    "body": "Send us a short description of the process and we'll tell you whether it's a good candidate for automation. No pitch, no commitment.",
+    "primaryCTA": "Email Us",
+    "secondaryCTA": "See Case Study",
+    "emailSubject": "Automation enquiry"
+  },
+  "footer": {
+    "tagline": "AI automation for operations-heavy businesses.",
+    "links": [
+      { "label": "Services", "href": "#solution" },
+      { "label": "Case Study", "href": "#case-study" },
+      { "label": "Process", "href": "#process" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
+    "legal": "© 2025 Agentic. All rights reserved.",
+    "privacyNote": "We don't collect personal data on this site."
+  },
+  "langToggle": {
+    "en": "EN",
+    "fr": "FR"
+  }
+}

@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Agentic — Landing Page
 
-## Getting Started
+AI automation consulting landing page for Agentic, built with Next.js App Router, TypeScript, Tailwind CSS, Framer Motion, and shadcn/ui.
 
-First, run the development server:
+## Stack
+
+- **Framework**: Next.js 16 App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Components**: shadcn/ui (base-ui)
+- **Animation**: Framer Motion
+- **i18n**: next-intl
+- **Deployment**: Vercel
+
+## Local Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Start dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+French version is available at [http://localhost:3000/fr](http://localhost:3000/fr).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+src/
+├── app/
+│   ├── [locale]/
+│   │   ├── layout.tsx       # Locale layout with SEO metadata
+│   │   └── page.tsx         # Main landing page
+│   ├── globals.css
+│   └── layout.tsx           # Root layout (minimal)
+├── components/
+│   ├── layout/
+│   │   ├── Navbar.tsx
+│   │   └── Footer.tsx
+│   ├── sections/
+│   │   ├── Hero.tsx
+│   │   ├── Credibility.tsx
+│   │   ├── Problem.tsx
+│   │   ├── Solution.tsx
+│   │   ├── CaseStudy.tsx
+│   │   ├── Benefits.tsx
+│   │   ├── Process.tsx
+│   │   ├── Founders.tsx
+│   │   ├── FAQ.tsx
+│   │   └── FinalCTA.tsx
+│   └── ui/
+│       ├── SectionWrapper.tsx
+│       ├── AnimatedCard.tsx
+│       ├── GradientSeparator.tsx
+│       └── FounderCard.tsx
+├── i18n/
+│   ├── routing.ts
+│   └── request.ts
+└── middleware.ts             # next-intl locale routing
 
-To learn more about Next.js, take a look at the following resources:
+messages/
+├── en.json                  # English copy
+└── fr.json                  # French copy
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Editing Copy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+All site copy lives in `messages/en.json` and `messages/fr.json`. No copy is hardcoded inside components. Edit those files to update any text on the site.
 
-## Deploy on Vercel
+## Adding a Language
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Add the locale to `src/i18n/routing.ts`
+2. Create `messages/<locale>.json` with all keys from `en.json`
+3. The middleware will handle routing automatically
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+
+### Vercel (recommended)
+
+1. Push this repository to GitHub
+2. Import the project in [Vercel](https://vercel.com)
+3. Vercel will detect Next.js automatically
+4. No environment variables are required by default
+
+Optional: set `NEXT_PUBLIC_SITE_URL` to your production domain for correct Open Graph URLs.
+
+### Manual
+
+```bash
+npm run build
+npm start
+```
+
+## Environment Variables
+
+See `.env.example`. No secrets are required for production.
+
+## Contact
+
+Primary CTA target: `adrien@vdbranden.com`
