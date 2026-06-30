@@ -1,14 +1,14 @@
 {
   "nav": {
     "services": "Services",
-    "caseStudy": "Cas Client",
-    "process": "Processus",
+    "caseStudy": "Cas client",
+    "process": "Comment ça marche",
     "faq": "FAQ",
     "emailUs": "Nous contacter"
   },
   "hero": {
     "badge": "Conseil en automatisation IA",
-    "headline": "Des systèmes IA qui suppriment les tâches opérationnelles répétitives.",
+    "headline": "Des agents IA qui éliminent les tâches opérationnelles répétitives.",
     "subheadline": "Nous construisons des automatisations sur mesure pour les entreprises à forte composante opérationnelle — réduisant le travail manuel, les erreurs, et permettant à vos équipes de se concentrer sur ce qui compte vraiment.",
     "primaryCTA": "Nous contacter",
     "secondaryCTA": "Voir le cas client",
@@ -163,20 +163,14 @@
     ]
   },
   "founders": {
-    "headline": "Qui nous sommes",
-    "intro": "Deux entrepreneurs qui ont passé des années à l'intersection du logiciel et des opérations.",
+    "headline": "Qui est derrière Agentic",
+    "intro": "Je suis un entrepreneur avec des années d'expérience passées à l'intersection du logiciel et des opérations.",
     "people": [
       {
         "name": "Adrien van den Branden",
-        "role": "Co-fondateur",
+        "role": "Fondateur",
         "bio": "Entrepreneur avec une expérience dans la construction de systèmes de production pour des entreprises à l'échelle opérationnelle. Axé sur rendre l'automatisation fiable et maintenable.",
         "linkedin": "https://www.linkedin.com/in/adrienvandenbranden/"
-      },
-      {
-        "name": "James de Wasseige",
-        "role": "Co-fondateur",
-        "bio": "Entrepreneur avec une expérience approfondie dans les systèmes IA et la conception de flux de travail. Axé sur la traduction des processus métier en automatisations fiables et évolutives.",
-        "linkedin": "https://www.linkedin.com/in/meet-jay/"
       }
     ]
   },
@@ -210,8 +204,8 @@
     ]
   },
   "finalCta": {
-    "headline": "Vous avez un flux de travail qui vous coûte du temps ?",
-    "body": "Envoyez-nous une courte description du processus et nous vous dirons s'il est un bon candidat à l'automatisation. Pas de présentation, pas d'engagement.",
+    "headline": "Vous avez un process business qui vous coûte du temps ?",
+    "body": "Envoyez-nous une courte description du process et nous vous dirons s'il est un bon candidat à l'automatisation.",
     "primaryCTA": "Nous contacter",
     "secondaryCTA": "Voir le cas client",
     "emailSubject": "Demande d'automatisation"

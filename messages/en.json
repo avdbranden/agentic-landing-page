@@ -164,19 +164,13 @@
   },
   "founders": {
     "headline": "Who we are",
-    "intro": "Two entrepreneurs who've spent years at the intersection of software and operations.",
+    "intro": "I'm an entrepreneur who's spent years at the intersection of software and operations.",
     "people": [
       {
         "name": "Adrien van den Branden",
-        "role": "Co-founder",
+        "role": "Founder",
         "bio": "Entrepreneur with a background in building production systems for operational-scale companies. Focused on making automation reliable and maintainable.",
         "linkedin": "https://www.linkedin.com/in/adrienvandenbranden/"
-      },
-      {
-        "name": "James de Wasseige",
-        "role": "Co-founder",
-        "bio": "Entrepreneur with deep experience in AI systems and workflow design. Focused on translating business processes into reliable, scalable automations.",
-        "linkedin": "https://www.linkedin.com/in/meet-jay/"
       }
     ]
   },

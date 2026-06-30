@@ -6,7 +6,6 @@ import { FounderCard } from "@/components/ui/FounderCard";
 
 const founderPhotos: Record<string, string> = {
   "Adrien van den Branden": "/adrien-vdb.png",
-  "James de Wasseige": "/james-dw.jpeg",
 };
 
 export function Founders() {
@@ -28,7 +27,7 @@ export function Founders() {
           <p className="text-neutral-500 leading-relaxed">{t("intro")}</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl">
+        <div className="grid grid-cols-1 gap-6 max-w-sm">
           {people.map((person, i) => (
             <FounderCard
               key={person.name}
