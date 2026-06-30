@@ -12,11 +12,11 @@
     "subheadline": "Nous construisons des automatisations sur mesure pour les entreprises à forte composante opérationnelle — réduisant le travail manuel, les erreurs, et permettant à vos équipes de se concentrer sur ce qui compte vraiment.",
     "primaryCTA": "Nous contacter",
     "secondaryCTA": "Voir le cas client",
-    "trustLabel": "Fait confiance par des entreprises en croissance en Europe"
+    "trustLabel": "Approuvé par des entreprises en croissance en Europe"
   },
   "credibility": {
     "headline": "Pourquoi Agentic",
-    "intro": "Nous sommes une petite agence avec de solides bases en ingénierie logicielle et en opérations métier. Nous avons vu comment les flux de travail manuels créent des goulots d'étranglement — et nous savons comment y remédier.",
+    "intro": "Notre agence concentre de solides bases en ingénierie logicielle et en opérations métier. Nous avons vu comment les processus manuels créent des goulots d'étranglement — et nous savons comment y remédier.",
     "stats": [
       { "value": "100%", "label": "Automatisations sur mesure" },
       { "value": "< 4 sem.", "label": "Délai moyen de mise en production" },
@@ -24,7 +24,7 @@
     ]
   },
   "problem": {
-    "headline": "Les flux manuels ne passent pas à l'échelle.",
+    "headline": "Les processus manuels ne passent pas à l'échelle.",
     "intro": "Les entreprises en croissance atteignent un plafond car de nombreuses opérations sont répétitives, sujettes aux erreurs, et toujours réalisées manuellement.",
     "items": [
       {
@@ -46,11 +46,11 @@
     ]
   },
   "solution": {
-    "headline": "Une automatisation construite autour de votre flux réel.",
-    "intro": "Nous ne vous vendons pas une plateforme. Nous apprenons comment fonctionne votre opération et construisons des systèmes qui s'y intègrent directement.",
+    "headline": "Une automatisation construite sur mesure pour vos processus métiers.",
+    "intro": "Nous ne vous vendons pas une plateforme. Nous apprenons comment fonctionnent vos opérations et construisons des systèmes qui s'y intègrent directement.",
     "items": [
       {
-        "title": "Comprendre votre flux d'abord",
+        "title": "Comprendre vos processus métiers",
         "description": "Nous auditons vos processus existants avant d'écrire une seule ligne de code."
       },
       {
